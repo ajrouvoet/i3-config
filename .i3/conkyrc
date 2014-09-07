@@ -1,0 +1,19 @@
+background        no
+out_to_console 	  yes
+out_to_x	  no
+update_interval	  2
+total_run_times	  0
+short_units	  yes
+pad_percents	  3
+
+override_utf8_locale yes
+
+TEXT
+,[{"full_text": " ❤ $acpitemp°C [$cpu%] ","color": "\#ffffff"},
+  {"full_text": " ≣ [$membar] ", "color":"\#ffffff"},
+  {"full_text": " ≈ ${wireless_essid wlp1s0} [${wireless_link_qual_perc wlp1s0}%] ","color":"\#ffffff"},
+  {"full_text": " ☇ [$battery_percent%] ","color":"\#859900"},
+  {"full_text": " ♪ [$mixer%] ", "color":"\#ffffff"},
+  {"full_text": " ${time %a %d %b} ${time %H:%M} ", "color": "\#ffffff"}
+]
+
